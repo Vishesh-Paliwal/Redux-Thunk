@@ -9,7 +9,7 @@ function Cart() {
             <ul>
             {
                 Object.values(cart).map((item) => {
-                    return (<li key={item.id}>{item.title}</li>)
+                    return (<li key={item.id}>{item.title} Quantity:{item.quantity}</li>)
                 })
                 }
             </ul>
